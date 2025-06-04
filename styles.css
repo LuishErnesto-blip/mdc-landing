@@ -36,6 +36,34 @@ body {
     transform: scale(1.1);
 }
 
+/* 📌 AGREGA ESTE BLOQUE JUSTO DESPUÉS DEL HERO */
+.preview {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.preview h2 {
+    font-size: 24px;
+    color: #222;
+}
+
+.preview p {
+    font-size: 16px;
+    color: #444;
+    text-align: justify;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+}
+
+.access-message {
+    margin-top: 10px;
+    font-style: italic;
+}
+
 /* Garantía */
 .guarantee {
     font-size: 16px;
