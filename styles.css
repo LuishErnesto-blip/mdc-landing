@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f8f1e4; /* Color dorado suave para coherencia con la portada */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* HERO SECTION */
+.hero {
+    background: #222;
+    padding: 40px;
+    color: white;
+}
+.mosaic {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.mosaic img {
+    width: 150px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+.cta {
+    background: #ff4500;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+.cta:hover {
+    transform: scale(1.1);
+}
+
+/* Garantía */
+.guarantee {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffd700;
+}
+
+/* Testimonios */
+.testimonials p {
+    font-style: italic;
+    padding: 10px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* Frase inspiradora */
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.slide-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
